@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 body {
     font-family: sans-serif;
     font-weight: bold;
     text-align: center;
     height: 100vh;
+    overflow: hidden;
 
 }
 
@@ -46,4 +53,16 @@ button {
 
 #save-btn {
     background: black;
+}
+
+@media (max-width: 799px) {
+    .container {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 477px) {
+    .container {
+        max-width: 80%;
+    }
 }
